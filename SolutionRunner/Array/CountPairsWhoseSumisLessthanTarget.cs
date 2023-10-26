@@ -28,7 +28,6 @@ public class CountPairsWhoseSumIsLessThanTarget : BaseSolution
     {
         var input = Console.ReadLine();
 
-        // Split the input string into an array of integers
         var numbers = input?.Split(' ');
         var nums = new int[numbers.Length];
 
