@@ -3,23 +3,17 @@
 namespace SolutionRunner.Array;
 
 /// <summary>
-/// https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target
+///     https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target
 /// </summary>
 public class CountPairsWhoseSumIsLessThanTarget : BaseSolution
 {
     private int CountPairs(IList<int> nums, int target)
     {
         var result = 0;
-        for (int i = 0; i < nums.Count; i++)
-        {
-            for (int j = i + 1; j < nums.Count; j++)
-            {
-                if (nums[i] + nums[j] < target)
-                {
-                    result++;
-                }
-            }
-        }
+        for (var i = 0; i < nums.Count; i++)
+        for (var j = i + 1; j < nums.Count; j++)
+            if (nums[i] + nums[j] < target)
+                result++;
 
         return result;
     }
@@ -31,10 +25,7 @@ public class CountPairsWhoseSumIsLessThanTarget : BaseSolution
         var numbers = input?.Split(' ');
         var nums = new int[numbers.Length];
 
-        for (int i = 0; i < numbers.Length; i++)
-        {
-            nums[i] = int.Parse(numbers[i]);
-        }
+        for (var i = 0; i < numbers.Length; i++) nums[i] = int.Parse(numbers[i]);
 
         input = Console.ReadLine();
 

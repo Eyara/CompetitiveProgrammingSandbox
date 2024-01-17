@@ -4,9 +4,9 @@ using SolutionRunner.Base;
 namespace SolutionRunner.Stack;
 
 /// <summary>
-/// https://leetcode.com/problems/remove-outermost-parentheses/
+///     https://leetcode.com/problems/remove-outermost-parentheses/
 /// </summary>
-public class RemoveOutermostParentheses: BaseSolution
+public class RemoveOutermostParentheses : BaseSolution
 {
     public string RemoveOuterParentheses(string s)
     {
@@ -32,21 +32,17 @@ public class RemoveOutermostParentheses: BaseSolution
 
 public class CustomStack
 {
-    private List<char> _stack = new List<char>();
-    private int _parentDepth = 0;
+    private readonly List<char> _stack = new();
+    private int _parentDepth;
 
     public void Push(char value)
     {
         _stack.Add(value);
 
         if (value == '(')
-        {
             _parentDepth++;
-        }
         else
-        {
             _parentDepth--;
-        }
     }
 
     public string TryToGetParentheses()
@@ -58,9 +54,7 @@ public class CustomStack
             _stack.Clear();
             return result;
         }
-        else
-        {
-            return string.Empty;
-        }
+
+        return string.Empty;
     }
 }

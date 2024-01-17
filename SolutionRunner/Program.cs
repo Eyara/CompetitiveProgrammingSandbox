@@ -1,5 +1,4 @@
-﻿using SolutionRunner.Array;
-using SolutionRunner.Stack;
+﻿using SolutionRunner.Stack;
 
 public class Runner
 {
@@ -8,7 +7,8 @@ public class Runner
         // var sol = new CountPairsWhoseSumIsLessThanTarget();
         // var sol = new HeightCheckerSolution();
         // var sol = new RearrangeArrayElementsBySign();
-        var sol = new RemoveOutermostParentheses();
+        // var sol = new RemoveOutermostParentheses();
+        var sol = new DesignBrowserHistory();
         sol.Solve();
     }
 }
