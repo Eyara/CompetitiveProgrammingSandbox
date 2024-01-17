@@ -1,4 +1,4 @@
-﻿using SolutionRunner.Stack;
+﻿using SolutionRunner.LinkedList;
 
 public class Runner
 {

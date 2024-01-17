@@ -1,6 +1,6 @@
 ﻿using SolutionRunner.Base;
 
-namespace SolutionRunner.Stack;
+namespace SolutionRunner.LinkedList;
 
 /// <summary>
 ///     https://leetcode.com/problems/design-browser-history/
@@ -24,7 +24,7 @@ public class BrowserNode
     public BrowserNode Next { get; private set; }
     public BrowserNode Prev { get; }
 
-    public string Url { get; private set; }
+    public string Url { get; }
 
     public void SetNext(BrowserNode node)
     {
