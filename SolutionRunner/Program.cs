@@ -8,7 +8,8 @@ public class Runner
         // var sol = new HeightCheckerSolution();
         // var sol = new RearrangeArrayElementsBySign();
         // var sol = new RemoveOutermostParentheses();
-        var sol = new DesignBrowserHistory();
+        // var sol = new DesignBrowserHistory();
+        var sol = new LruCache();
         sol.Solve();
     }
 }

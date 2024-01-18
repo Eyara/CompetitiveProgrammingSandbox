@@ -9,7 +9,17 @@ public class DesignBrowserHistory : BaseSolution
 {
     public override void Solve()
     {
-        Console.WriteLine("Ok");
+        var browserHistory = new BrowserHistory("leetcode.com");
+        browserHistory.Visit("google.com");
+        browserHistory.Visit("facebook.com");
+        browserHistory.Visit("youtube.com");
+        browserHistory.Back(1);
+        browserHistory.Back(1);
+        browserHistory.Forward(1);
+        browserHistory.Visit("linkedin.com");
+        browserHistory.Forward(2);
+        browserHistory.Back(2);
+        browserHistory.Back(7);
     }
 }
 
