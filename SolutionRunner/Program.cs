@@ -1,4 +1,4 @@
-﻿using SolutionRunner.LinkedList;
+﻿using SolutionRunner.PrefixSum;
 
 public class Runner
 {
@@ -9,7 +9,8 @@ public class Runner
         // var sol = new RearrangeArrayElementsBySign();
         // var sol = new RemoveOutermostParentheses();
         // var sol = new DesignBrowserHistory();
-        var sol = new LruCache();
+        // var sol = new LruCache();
+        var sol = new MaximumPointsFromCards();
         sol.Solve();
     }
 }

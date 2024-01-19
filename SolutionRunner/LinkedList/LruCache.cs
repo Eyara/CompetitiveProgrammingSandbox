@@ -49,7 +49,7 @@ public class LRUCache
 
             _cacheList.Remove(dictValue);
             _cacheList.AddFirst(dictValue);
-            
+
             return dictValue.Value;
         }
 
@@ -63,7 +63,7 @@ public class LRUCache
             _cacheDictionary[key].Value = value;
 
             var dictValue = _cacheDictionary[key];
-            
+
             _cacheList.Remove(dictValue);
             _cacheList.AddFirst(dictValue);
         }
