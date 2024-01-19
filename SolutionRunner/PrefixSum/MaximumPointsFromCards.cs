@@ -3,7 +3,7 @@
 namespace SolutionRunner.PrefixSum;
 
 /// <summary>
-///     https://leetcode.com/problems/subarray-sum-equals-k/
+///    https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/
 /// </summary>
 public class MaximumPointsFromCards : BaseSolution
 {
