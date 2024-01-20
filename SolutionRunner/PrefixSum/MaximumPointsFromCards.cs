@@ -3,7 +3,7 @@
 namespace SolutionRunner.PrefixSum;
 
 /// <summary>
-///    https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/
+///     https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/
 /// </summary>
 public class MaximumPointsFromCards : BaseSolution
 {
@@ -22,6 +22,7 @@ public class MaximumPointsFromCards : BaseSolution
 
         return result;
     }
+
     public override void Solve()
     {
         var input = Console.ReadLine();
