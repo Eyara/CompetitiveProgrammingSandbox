@@ -13,7 +13,8 @@ public class Runner
         // var sol = new MaximumPointsFromCards();
         // var sol = new RangeSumQuery();
         // var sol = new BinarySubArraysWithSum();
-        var sol = new SumOfAllOddLengthSubarrays();
+        // var sol = new SumOfAllOddLengthSubarrays();
+        var sol = new RunningSumof1dArray();
         sol.Solve();
     }
 }
