@@ -16,7 +16,7 @@ public class RunningSumof1dArray : BaseSolution
         var nums = new int[numbers.Length];
 
         for (var i = 0; i < numbers.Length; i++) nums[i] = int.Parse(numbers[i]);
-        
+
         Console.WriteLine(RunningSum(nums));
     }
 

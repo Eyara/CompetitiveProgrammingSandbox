@@ -1,4 +1,4 @@
-﻿using SolutionRunner.PrefixSum;
+﻿using SolutionRunner.Array;
 
 public class Runner
 {
@@ -14,7 +14,8 @@ public class Runner
         // var sol = new RangeSumQuery();
         // var sol = new BinarySubArraysWithSum();
         // var sol = new SumOfAllOddLengthSubarrays();
-        var sol = new RunningSumof1dArray();
+        // var sol = new RunningSumof1dArray();
+        var sol = new MaximumPopulationYear();
         sol.Solve();
     }
 }

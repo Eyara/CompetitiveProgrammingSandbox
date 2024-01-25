@@ -16,7 +16,7 @@ public class SumOfAllOddLengthSubarrays : BaseSolution
         var nums = new int[numbers.Length];
 
         for (var i = 0; i < numbers.Length; i++) nums[i] = int.Parse(numbers[i]);
-        
+
         Console.WriteLine(SumOddLengthSubarrays(nums));
     }
 
@@ -25,10 +25,7 @@ public class SumOfAllOddLengthSubarrays : BaseSolution
         var n = arr.Length;
         var sum = 0;
 
-        for (var i = 0; i < n; i++)
-        {
-            sum += ((i + 1) * (n - i) + 1) / 2 * arr[i];
-        }
+        for (var i = 0; i < n; i++) sum += ((i + 1) * (n - i) + 1) / 2 * arr[i];
 
         return sum;
     }
