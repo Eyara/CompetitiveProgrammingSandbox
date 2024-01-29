@@ -15,7 +15,8 @@ public class Runner
         // var sol = new BinarySubArraysWithSum();
         // var sol = new SumOfAllOddLengthSubarrays();
         // var sol = new RunningSumof1dArray();
-        var sol = new MaximumPopulationYear();
+        // var sol = new MaximumPopulationYear();
+        var sol = new FindGoodDaysToRobTheBank();
         sol.Solve();
     }
 }
