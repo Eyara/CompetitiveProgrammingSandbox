@@ -1,4 +1,5 @@
 ﻿using SolutionRunner.Array;
+using SolutionRunner.HashTable;
 
 public class Runner
 {
@@ -16,7 +17,8 @@ public class Runner
         // var sol = new SumOfAllOddLengthSubarrays();
         // var sol = new RunningSumof1dArray();
         // var sol = new MaximumPopulationYear();
-        var sol = new FindGoodDaysToRobTheBank();
+        // var sol = new FindGoodDaysToRobTheBank();
+        var sol = new RomanToInteger();
         sol.Solve();
     }
 }
