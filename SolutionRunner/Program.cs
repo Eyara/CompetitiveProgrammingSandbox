@@ -1,5 +1,4 @@
-﻿using SolutionRunner.Array;
-using SolutionRunner.HashTable;
+﻿using SolutionRunner.HashTable;
 
 public class Runner
 {
@@ -19,7 +18,8 @@ public class Runner
         // var sol = new MaximumPopulationYear();
         // var sol = new FindGoodDaysToRobTheBank();
         // var sol = new RomanToInteger();
-        var sol = new LetterCombinationsOfAPhoneNumber();
+        // var sol = new LetterCombinationsOfAPhoneNumber();
+        var sol = new WordPatternSolution();
         sol.Solve();
     }
 }
