@@ -18,7 +18,8 @@ public class Runner
         // var sol = new RunningSumof1dArray();
         // var sol = new MaximumPopulationYear();
         // var sol = new FindGoodDaysToRobTheBank();
-        var sol = new RomanToInteger();
+        // var sol = new RomanToInteger();
+        var sol = new LetterCombinationsOfAPhoneNumber();
         sol.Solve();
     }
 }
