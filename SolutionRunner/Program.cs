@@ -19,7 +19,8 @@ public class Runner
         // var sol = new FindGoodDaysToRobTheBank();
         // var sol = new RomanToInteger();
         // var sol = new LetterCombinationsOfAPhoneNumber();
-        var sol = new WordPatternSolution();
+        // var sol = new WordPatternSolution();
+        var sol = new BullsAndCows();
         sol.Solve();
     }
 }
