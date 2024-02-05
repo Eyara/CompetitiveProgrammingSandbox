@@ -9,7 +9,7 @@ public class ContainsDuplicateSolution : BaseSolution
 {
     public override void Solve()
     {
-        Console.WriteLine(ContainsDuplicate(new int[] {1,2,3,4}));
+        Console.WriteLine(ContainsDuplicate(new[] { 1, 2, 3, 4 }));
     }
 
     public bool ContainsDuplicate(int[] nums)
@@ -17,16 +17,10 @@ public class ContainsDuplicateSolution : BaseSolution
         var hashSet = new HashSet<int>();
 
         foreach (var num in nums)
-        {
             if (hashSet.Contains(num))
-            {
                 return true;
-            }
             else
-            {
                 hashSet.Add(num);
-            }
-        }
 
         return false;
     }
