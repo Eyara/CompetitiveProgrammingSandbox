@@ -20,7 +20,8 @@ public class Runner
         // var sol = new RomanToInteger();
         // var sol = new LetterCombinationsOfAPhoneNumber();
         // var sol = new WordPatternSolution();
-        var sol = new BullsAndCows();
+        // var sol = new BullsAndCows();
+        var sol = new WordBreakSolution();
         sol.Solve();
     }
 }
