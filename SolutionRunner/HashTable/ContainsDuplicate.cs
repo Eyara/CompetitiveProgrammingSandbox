@@ -14,17 +14,17 @@ public class ContainsDuplicateSolution : BaseSolution
 
     public bool ContainsDuplicate(int[] nums)
     {
-        var dict = new Dictionary<int, int>();
+        var hashSet = new HashSet<int>();
 
         foreach (var num in nums)
         {
-            if (dict.ContainsKey(num))
+            if (hashSet.Contains(num))
             {
                 return true;
             }
             else
             {
-                dict[num] = 1;
+                hashSet.Add(num);
             }
         }
 
