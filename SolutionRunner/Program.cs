@@ -21,7 +21,8 @@ public class Runner
         // var sol = new LetterCombinationsOfAPhoneNumber();
         // var sol = new WordPatternSolution();
         // var sol = new BullsAndCows();
-        var sol = new WordBreakSolution();
+        // var sol = new WordBreakSolution();
+        var sol = new ContainsDuplicateSolution();
         sol.Solve();
     }
 }
