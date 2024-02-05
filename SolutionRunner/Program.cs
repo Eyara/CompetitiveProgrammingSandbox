@@ -22,7 +22,8 @@ public class Runner
         // var sol = new WordPatternSolution();
         // var sol = new BullsAndCows();
         // var sol = new WordBreakSolution();
-        var sol = new ContainsDuplicateSolution();
+        // var sol = new ContainsDuplicateSolution();
+        var sol = new ContainsDuplicateIISolution();
         sol.Solve();
     }
 }
