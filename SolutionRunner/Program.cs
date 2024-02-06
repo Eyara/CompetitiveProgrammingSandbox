@@ -1,4 +1,4 @@
-﻿using SolutionRunner.HashTable;
+﻿using SolutionRunner.MathProblems;
 
 public class Runner
 {
@@ -23,7 +23,8 @@ public class Runner
         // var sol = new BullsAndCows();
         // var sol = new WordBreakSolution();
         // var sol = new ContainsDuplicateSolution();
-        var sol = new ContainsDuplicateIISolution();
+        // var sol = new ContainsDuplicateIISolution();
+        var sol = new UglyNumberSolution();
         sol.Solve();
     }
 }
