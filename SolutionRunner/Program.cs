@@ -25,7 +25,8 @@ public class Runner
         // var sol = new ContainsDuplicateSolution();
         // var sol = new ContainsDuplicateIISolution();
         // var sol = new UglyNumberSolution();
-        var sol = new RankTeamsByVotes();
+        // var sol = new RankTeamsByVotes();
+        var sol = new FindAllDuplicatesInArray();
         sol.Solve();
     }
 }
