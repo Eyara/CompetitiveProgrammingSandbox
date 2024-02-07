@@ -1,4 +1,4 @@
-﻿using SolutionRunner.HashTable;
+﻿using SolutionRunner.BinarySearch;
 
 public class Runner
 {
@@ -26,7 +26,8 @@ public class Runner
         // var sol = new ContainsDuplicateIISolution();
         // var sol = new UglyNumberSolution();
         // var sol = new RankTeamsByVotes();
-        var sol = new FindAllDuplicatesInArray();
+        // var sol = new FindAllDuplicatesInArray();
+        var sol = new CountNegativeNumbersInSortedMatrix();
         sol.Solve();
     }
 }

@@ -19,18 +19,14 @@ public class RankTeamsByVotes : BaseSolution
         foreach (var ch in votes[0]) rankDict[ch] = new int[votes[0].Length];
 
         foreach (var vote in votes)
-        {
             for (var j = 0; j < vote.Length; j++)
-            {
                 rankDict[vote[j]][j] += 1;
-            }
-        }
 
         var rankedQuery = rankDict.OrderByDescending(x => x.Value[0]);
 
         for (var i = 0; i < votes[0].Length; i++)
         {
-            int i1 = i;
+            var i1 = i;
             rankedQuery = rankedQuery.ThenByDescending(x => x.Value[i1]);
         }
 
