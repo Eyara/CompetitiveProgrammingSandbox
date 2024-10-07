@@ -31,7 +31,7 @@ public class Runner
         // var sol = new CountNegativeNumbersInSortedMatrix();
         // sol.Solve();
 
-        var gcd = new Gcd();
-        gcd.Test();
+        var lcm = new Lcm();
+        lcm.Test();
     }
 }
