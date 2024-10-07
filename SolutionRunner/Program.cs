@@ -1,4 +1,5 @@
 ﻿using SolutionRunner.BinarySearch;
+using SolutionRunner.RoadTo1800.BasicAlgorithms;
 
 public class Runner
 {
@@ -27,7 +28,10 @@ public class Runner
         // var sol = new UglyNumberSolution();
         // var sol = new RankTeamsByVotes();
         // var sol = new FindAllDuplicatesInArray();
-        var sol = new CountNegativeNumbersInSortedMatrix();
-        sol.Solve();
+        // var sol = new CountNegativeNumbersInSortedMatrix();
+        // sol.Solve();
+
+        var gcd = new Gcd();
+        gcd.Test();
     }
 }
