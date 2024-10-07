@@ -31,7 +31,7 @@ public class Runner
         // var sol = new CountNegativeNumbersInSortedMatrix();
         // sol.Solve();
 
-        var lcm = new Lcm();
-        lcm.Test();
+        var sieve = new SieveOfEratosthenes();
+        sieve.Test();
     }
 }
