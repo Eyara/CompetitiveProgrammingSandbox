@@ -31,7 +31,7 @@ public class Runner
         // var sol = new CountNegativeNumbersInSortedMatrix();
         // sol.Solve();
 
-        var bs = new BinarySearch();
-        bs.Test();
+        var tpt = new TwoPointer();
+        tpt.Test();
     }
 }
