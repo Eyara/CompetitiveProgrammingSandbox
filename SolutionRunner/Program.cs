@@ -1,10 +1,11 @@
 ﻿using SolutionRunner.BinarySearch;
 using SolutionRunner.RoadTo1800.BasicAlgorithms;
+using SolutionRunner.RoadTo1800.Contests._984_div_3;
 
-public class Runner
-{
-    public static void Main()
-    {
+// public class Runner
+// {
+    // public static void Main()
+    // {
         // var sol = new CountPairsWhoseSumIsLessThanTarget();
         // var sol = new HeightCheckerSolution();
         // var sol = new RearrangeArrayElementsBySign();
@@ -31,7 +32,9 @@ public class Runner
         // var sol = new CountNegativeNumbersInSortedMatrix();
         // sol.Solve();
 
-        var tpt = new TwoPointer();
-        tpt.Test();
-    }
-}
+    //     var tpt = new TwoPointer();
+    //     tpt.Test();
+    // }
+// }
+
+C.Main(null);
