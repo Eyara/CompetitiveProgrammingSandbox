@@ -1,6 +1,8 @@
 ﻿using SolutionRunner.BinarySearch;
 using SolutionRunner.RoadTo1800.BasicAlgorithms;
-using SolutionRunner.RoadTo1800.Contests._984_div_3;
+using SolutionRunner.RoadTo1800.Contests._974_div_3;
+
+// using SolutionRunner.RoadTo1800.Contests._984_div_3;
 
 // public class Runner
 // {
@@ -37,4 +39,4 @@ using SolutionRunner.RoadTo1800.Contests._984_div_3;
     // }
 // }
 
-C.Main(null);
+A.Main(null);
