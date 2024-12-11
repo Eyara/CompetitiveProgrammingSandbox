@@ -1,4 +1,5 @@
 ﻿using SolutionRunner.BinarySearch;
+using SolutionRunner.MathProblems;
 using SolutionRunner.RoadTo1800.BasicAlgorithms;
 using SolutionRunner.RoadTo1800.Contests._974_div_3;
 
@@ -39,4 +40,4 @@ using SolutionRunner.RoadTo1800.Contests._974_div_3;
     // }
 // }
 
-A.Main(null);
+A1899.Main(null);
