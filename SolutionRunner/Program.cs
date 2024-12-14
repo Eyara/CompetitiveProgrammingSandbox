@@ -2,6 +2,7 @@
 using SolutionRunner.MathProblems;
 using SolutionRunner.RoadTo1800.BasicAlgorithms;
 using SolutionRunner.RoadTo1800.Contests._974_div_3;
+using SolutionRunner.String;
 
 // using SolutionRunner.RoadTo1800.Contests._984_div_3;
 
@@ -40,4 +41,4 @@ using SolutionRunner.RoadTo1800.Contests._974_div_3;
     // }
 // }
 
-A1899.Main(null);
+B2002.Main(null);
