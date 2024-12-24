@@ -3,15 +3,12 @@
 /// <summary>
 ///     https://codeforces.com/problemset/problem/2033/A
 /// </summary>
-public class A2033 
+public class A2033
 {
     public static void Main(string[] args)
     {
         var t = int.Parse(Console.ReadLine());
-        for (var i = 0; i < t; i++)
-        {
-            Console.WriteLine($"{GetAnswer()}");
-        }
+        for (var i = 0; i < t; i++) Console.WriteLine($"{GetAnswer()}");
     }
 
     private static string GetAnswer()
@@ -27,11 +24,8 @@ public class A2033
             i++;
         }
 
-        if (x > 0)
-        {
-            return "Kosuke";
-        }
-        
+        if (x > 0) return "Kosuke";
+
         return "Sakurako";
     }
 }

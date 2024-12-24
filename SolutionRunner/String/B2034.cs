@@ -8,10 +8,7 @@ public class B2034
     public static void Main(string[] args)
     {
         var t = int.Parse(Console.ReadLine());
-        for (var i = 0; i < t; i++)
-        {
-            Console.WriteLine($"{GetAnswer()}");
-        }
+        for (var i = 0; i < t; i++) Console.WriteLine($"{GetAnswer()}");
     }
 
     private static int GetAnswer()
@@ -30,7 +27,6 @@ public class B2034
         var result = 0;
 
         for (var i = 0; i < n; i++)
-        {
             if (s[i] == '0')
             {
                 isSeq = true;
@@ -52,7 +48,6 @@ public class B2034
                     seqLength = 0;
                 }
             }
-        }
 
         return result;
     }

@@ -8,10 +8,7 @@ public class B12005
     public static void Main(string[] args)
     {
         var t = int.Parse(Console.ReadLine());
-        for (var i = 0; i < t; i++)
-        {
-            Console.WriteLine($"{GetAnswer()}");
-        }
+        for (var i = 0; i < t; i++) Console.WriteLine($"{GetAnswer()}");
     }
 
     private static int GetAnswer()
@@ -21,7 +18,7 @@ public class B12005
             .Split(' ')
             .Select(int.Parse)
             .ToList();
-        
+
         b.Sort();
         var a = int.Parse(Console.ReadLine());
 
@@ -38,13 +35,9 @@ public class B12005
         if (rIndex >= 0)
         {
             if (l >= 0)
-            {
                 result = (r - l) / 2;
-            }
             else
-            {
                 result = r - 1;
-            }
         }
         else
         {
@@ -65,10 +58,7 @@ public class B12005
         {
             var mid = low + (high - low) / 2;
 
-            if (sortedArray[mid] == target)
-            {
-                return mid;
-            }
+            if (sortedArray[mid] == target) return mid;
 
             if (sortedArray[mid] < target)
             {

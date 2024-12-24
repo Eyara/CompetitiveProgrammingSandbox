@@ -1,7 +1,7 @@
 ﻿namespace SolutionRunner.RoadTo1800.Contests._984_div_3;
 
 /// <summary>
-/// https://codeforces.com/contest/2036/problem/A
+///     https://codeforces.com/contest/2036/problem/A
 /// </summary>
 public class A
 {
@@ -15,7 +15,7 @@ public class A
     private static void Solve()
     {
         var n = int.Parse(Console.ReadLine());
-        
+
         var a = new int[n];
 
         var numbers = Console.ReadLine()?.Split(' ');
@@ -32,7 +32,7 @@ public class A
                 ;
             }
         }
-        
+
         Console.WriteLine("YES");
     }
 }

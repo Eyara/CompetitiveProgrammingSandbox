@@ -34,18 +34,14 @@ public class CountNegativeNumbersInSortedMatrix : BaseSolution
         var right = arr.Length - 1;
 
         if (arr[right] >= 0) return 0;
-        
+
         while (left <= right)
         {
             var mid = (right - left) / 2 + left;
             if (arr[mid] < 0)
-            {
                 right = mid - 1;
-            }
             else
-            {
                 left = mid + 1;
-            }
         }
 
         return arr.Length - left;

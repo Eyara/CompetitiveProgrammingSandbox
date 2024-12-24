@@ -1,7 +1,7 @@
 ﻿namespace SolutionRunner.RoadTo1800.Contests._984_div_3;
 
 /// <summary>
-/// https://codeforces.com/contest/2036/problem/B
+///     https://codeforces.com/contest/2036/problem/B
 /// </summary>
 public class B
 {
@@ -13,7 +13,7 @@ public class B
     }
 
     private static void Solve()
-    {   
+    {
         var a = new int[2];
 
         var numbers = Console.ReadLine()?.Split(' ');
@@ -32,15 +32,11 @@ public class B
             var c = a[1];
 
             if (dictBottles.ContainsKey(b))
-            {
                 dictBottles[b] += c;
-            }
             else
-            {
                 dictBottles.Add(b, c);
-            }
         }
-        
+
         var sortedDict = dictBottles.OrderByDescending(entry => entry.Value);
         Console.WriteLine(sortedDict.Take(n).Sum(x => x.Value));
     }

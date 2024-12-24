@@ -11,24 +11,17 @@ public class BinarySearch
         {
             var mid = low + (high - low) / 2;
 
-            if (sortedArray[mid] == target)
-            {
-                return mid;
-            }
+            if (sortedArray[mid] == target) return mid;
 
             if (sortedArray[mid] < target)
-            {
                 low = mid + 1;
-            }
             else
-            {
                 high = mid - 1;
-            }
         }
 
         return -1;
     }
-    
+
     public int NextLargestOrEqualIterative(int[] sortedArray, int target)
     {
         var high = sortedArray.Length - 1;
@@ -39,10 +32,7 @@ public class BinarySearch
         {
             var mid = low + (high - low) / 2;
 
-            if (sortedArray[mid] == target)
-            {
-                return mid;
-            }
+            if (sortedArray[mid] == target) return mid;
 
             if (sortedArray[mid] < target)
             {
@@ -60,6 +50,6 @@ public class BinarySearch
 
     public void Test()
     {
-        Console.WriteLine(NextLargestOrEqualIterative(new int[] { 0, 2, 5, 8, 9, 11, 12 }, 10));
+        Console.WriteLine(NextLargestOrEqualIterative(new[] { 0, 2, 5, 8, 9, 11, 12 }, 10));
     }
 }

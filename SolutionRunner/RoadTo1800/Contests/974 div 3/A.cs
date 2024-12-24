@@ -1,7 +1,7 @@
 ﻿namespace SolutionRunner.RoadTo1800.Contests._974_div_3;
 
 /// <summary>
-/// https://codeforces.com/contest/2014/problem/A
+///     https://codeforces.com/contest/2014/problem/A
 /// </summary>
 public class A
 {
@@ -21,13 +21,12 @@ public class A
         var a = new int[n];
         var currentMoney = 0;
         var result = 0;
-        
+
         var numbers = Console.ReadLine()?.Split(' ');
 
         for (var i = 0; i < a.Length; i++) a[i] = int.Parse(numbers[i]);
 
         for (var i = 0; i < n; i++)
-        {
             if (a[i] >= k)
             {
                 currentMoney += a[i];
@@ -40,9 +39,7 @@ public class A
                     result++;
                 }
             }
-        }
-        
-        Console.WriteLine(result);
 
+        Console.WriteLine(result);
     }
 }

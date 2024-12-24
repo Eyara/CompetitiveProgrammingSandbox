@@ -29,10 +29,10 @@ public class Gcd
 
         var a1 = 12;
         var b1 = 36;
-        
+
         Console.WriteLine(GcdRecursion(a, b));
         Console.WriteLine(GcdIterative(a, b));
-        
+
         Console.WriteLine(GcdRecursion(a1, b1));
         Console.WriteLine(GcdIterative(a1, b1));
     }

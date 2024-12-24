@@ -8,10 +8,7 @@ public class B1916
     public static void Main(string[] args)
     {
         var t = int.Parse(Console.ReadLine());
-        for (var i = 0; i < t; i++)
-        {
-            Console.WriteLine($"{GetAnswer()}");
-        }
+        for (var i = 0; i < t; i++) Console.WriteLine($"{GetAnswer()}");
     }
 
     private static long GetAnswer()
@@ -21,15 +18,10 @@ public class B1916
         var b = numbers[1];
 
         if (b % a == 0)
-        {
             return b * b / a;
-        }
-        else
-        {
-            return b * a / (GcdIterative(a, b));
-        }
+        return b * a / GcdIterative(a, b);
     }
-    
+
     private static long GcdIterative(long a, long b)
     {
         while (a != 0)
@@ -41,5 +33,4 @@ public class B1916
 
         return b;
     }
-
 }

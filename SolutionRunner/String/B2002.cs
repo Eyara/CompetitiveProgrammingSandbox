@@ -8,10 +8,7 @@ public class B2002
     public static void Main(string[] args)
     {
         var t = int.Parse(Console.ReadLine());
-        for (var i = 0; i < t; i++)
-        {
-            Console.WriteLine($"{GetAnswer()}");
-        }
+        for (var i = 0; i < t; i++) Console.WriteLine($"{GetAnswer()}");
     }
 
     private static string GetAnswer()
@@ -26,17 +23,11 @@ public class B2002
             .Select(int.Parse)
             .ToList();
 
-        if (a.SequenceEqual(b))
-        {
-            return "Bob";
-        }
+        if (a.SequenceEqual(b)) return "Bob";
 
         b.Reverse();
-        
-        if (a.SequenceEqual(b))
-        {
-            return "Bob";
-        }
+
+        if (a.SequenceEqual(b)) return "Bob";
 
         return "Alice";
     }
