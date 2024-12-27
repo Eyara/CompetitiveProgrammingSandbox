@@ -1,4 +1,5 @@
 ﻿using SolutionRunner.Array;
+using SolutionRunner.String;
 
 // using SolutionRunner.RoadTo1800.Contests._984_div_3;
 
@@ -37,4 +38,4 @@
 // }
 // }
 
-B1894.Main(null);
+B1907.Main(null);
